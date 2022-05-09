@@ -1,0 +1,28 @@
+.main-body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.square-box{
+    height: 625px;
+    width: 1125px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start; /* NEW */
+}
+
+.square{
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+}
