@@ -9,9 +9,9 @@ function setSquares(){
 
     let differenceInTime = today.getTime() - originalDate.getTime();
 
-    let differenceInDays = Math.ceil(differenceInTime / (1000 * 3600 * 24));
+    let calculatedBoxes = Math.floor(differenceInTime / (1000 * 3600 * 2.5));
 
-    for(let i=0; i<(differenceInDays*10); i++){
+    for(let i=0; i<(calculatedBoxes); i++){
         box.innerHTML += '<div class="square"></div>';
     }
 }
